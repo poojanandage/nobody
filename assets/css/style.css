@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-weight: 40rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5; }
+
+::selection {
+  background-color: #2e2e2e;
+  color: #fff; }
+
+a, a:link, a:visited {
+  text-decoration: none; }
+
+ul, ol, li {
+  list-style: none;
+  display: inline-block; }
+
+span {
+  display: inline-block; }
+
+.slider-box-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  width: 75%;
+  color: #333333;
+  margin-bottom: 2rem; }
+
+.slider-box-para {
+  font-size: 1.6rem;
+  color: #2e2e2e;
+  width: 70%; }
+
+.slider-img-1 {
+  display: inline-block;
+  object-fit: cover;
+  width: 75rem;
+  height: 60rem; }
+
+.intro-img-hero {
+  object-fit: cover;
+  width: 85%; }
+
+.intro-box-img-1 {
+  object-fit: cover;
+  display: inline-block;
+  width: 8.5rem;
+  height: 8rem;
+  border-radius: .3rem;
+  outline-offset: 1rem;
+  transition: all .5s ease-in-out;
+  transform: scale(1); }
+  .intro-box-img-1:hover {
+    outline: 0.6rem solid #0099ff;
+    transform: scale(1.06); }
+
+.intro-box-heading {
+  font-size: 1.6rem;
+  color: #0099ff;
+  text-transform: capitalize; }
+
+.intro-box-para {
+  font-size: 1.4rem;
+  color: #787878;
+  margin-bottom: 3rem; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.mt-45 {
+  margin-top: 4.5rem; }
+
+.mt-65 {
+  margin-top: 6.5rem; }
+
+.mt-152 {
+  margin-top: 15.2rem; }
+
+.mb-20 {
+  margin-bottom: 2rem; }
+
+.mb-10 {
+  margin-bottom: 1rem; }
+
+.mb-85 {
+  margin-bottom: 8.5rem; }
+
+.search-input1 {
+  padding: 1rem .3rem;
+  color: #787878;
+  background-color: #e9e9e9;
+  border: 0.2rem solid #e9e9e9;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  margin-right: .5rem;
+  width: 20rem; }
+
+.search-btn1 {
+  padding: 1rem .3rem;
+  color: #fff;
+  background-color: #0099ff;
+  border: 0.1rem solid #0099ff;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all .4s ease; }
+  .search-btn1:hover {
+    color: #0099ff;
+    background-color: #fff;
+    border: 0.1rem solid #0099ff; }
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto; }
+
+.row, .row::after, .row::before {
+  clear: both;
+  width: 100%;
+  display: table; }
+
+div[class^='col'] {
+  float: left;
+  padding: 0 15px; }
+
+.col12 {
+  width: 100%; }
+
+.col10 {
+  width: calc(100% * 10/12); }
+
+.col9 {
+  width: 75%; }
+
+.col8 {
+  width: calc(100% * 8/12); }
+
+.col7 {
+  width: calc(100% * 7/12); }
+
+.col6 {
+  width: 50%; }
+
+.col5 {
+  width: calc(100% * 5/12); }
+
+.col4 {
+  width: calc(100% * 4/12); }
+
+.col3 {
+  width: 25%; }
+
+.header {
+  padding: 5rem;
+  background-color: #2e2e2e; }
+  .header-list-group-item {
+    margin-right: 1rem; }
+  .header-list-group-item > a {
+    font-size: 1.6rem;
+    color: #787878;
+    font-weight: 70rem;
+    text-transform: capitalize; }
+  .header-span {
+    font-size: 2.5rem;
+    font-weight: 100rem;
+    color: #787878; }
+
+.header-icon, .header-icon-item {
+  font-size: 2.5rem;
+  font-weight: 100rem;
+  margin-left: 1.2rem; }
+
+.header-icon-item i {
+  color: #fff;
+  padding: 1rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: #787878;
+  transition: all .3s ease; }
+  .header-icon-item i:hover {
+    background-color: #db4a39; }
+
+.navbar-head {
+  border-bottom: 0.6rem solid #e9e9e9; }
+  .navbar-head, .navbar-head-item {
+    margin: 1rem; }
+    .navbar-head a, .navbar-head-item a {
+      padding: 1rem;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 400;
+      position: relative;
+      transition: all .3s ease-in-out; }
+      .navbar-head a::after, .navbar-head-item a::after {
+        content: '';
+        height: .6rem;
+        width: 0;
+        position: absolute;
+        background-color: #e9e9e9;
+        bottom: -1rem;
+        left: 0;
+        transform: translate(0, -50%);
+        transition: all .4s ease-in-out; }
+      .navbar-head a:hover, .navbar-head-item a:hover {
+        color: #787878; }
+      .navbar-head a:hover::after, .navbar-head-item a:hover::after {
+        background-color: #0099ff;
+        width: 100%; }
+
+.section-navbar {
+  padding: 4rem 0 4.5rem; }
+
+.section-slider {
+  padding: 1.5rem 2rem 0;
+  background-color: #f1f1f1;
+  border-top: 0.6rem solid #e9e9e9;
+  border-bottom: 1.2rem solid #e9e9e9; }
+
+.section-intro {
+  padding: 4rem 0; }

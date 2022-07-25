@@ -1,0 +1,38 @@
+
+.navbar-head{
+    border-bottom: .6rem solid $color-gray-light;
+    &,
+    &-item{
+        margin: 1rem;
+        
+        & a{
+            padding: 1rem;
+            color: $color-black;
+            text-transform: uppercase;
+            font-size:2rem ;
+            font-weight: 400;
+            position: relative;
+            transition: all .3s ease-in-out;
+            &::after{
+                content: '';
+                height: .6rem;
+                width: 0;
+                position: absolute;
+                background-color: $color-gray-light;
+                bottom: -1rem;
+                left: 0;
+                transform: translate(0,-50%);
+                transition: all .4s ease-in-out;
+        
+           }
+           &:hover{
+            color:$color-gray-dark;
+           }
+           &:hover::after{
+            background-color: $color-tertiary;
+            width: 100%;
+        
+           }
+        }
+    }
+}
